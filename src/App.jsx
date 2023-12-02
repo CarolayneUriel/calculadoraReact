@@ -1,12 +1,12 @@
 import React from "react";
-import Main from "./Components/Main";
+import Index from "./Components/Index";
 import GlobalStyle from "./Components/GlobalStyle";
 
 export default function App() {
   return (
     <>
       <GlobalStyle />
-      <Main />
+      <Index />
     </>
   );
 }

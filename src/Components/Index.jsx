@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./MainStyle";
 
-export default function Main() {
+export default function Index() {
   const [valor, setValor] = useState("0");
   const [primeiroValor, setPrimeiroValor] = useState("");
   const [operador, setOperador] = useState("");
